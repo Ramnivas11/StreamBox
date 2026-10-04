@@ -11,4 +11,8 @@ app.get("/api/health", (req, res) => {
   });
 });
 
+app.get("/", (req, res) => {
+  res.send("hello World");
+});
+
 module.exports = app;
